@@ -11,6 +11,8 @@
 #  updated_at :datetime         not null
 #
 class Director < ApplicationRecord
+
+  
   def filmography
     my_id = self.id
 
